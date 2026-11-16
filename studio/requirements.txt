@@ -1,0 +1,9 @@
+fastapi>=0.110
+uvicorn>=0.29
+python-multipart>=0.0.9
+numpy>=1.26
+pillow>=10.0
+opencv-python-headless>=4.9,<5  # 5.x moved the Haar face detector out of core
+anthropic>=2.8
+# Recommended: local speech-to-text with word timestamps (downloads a Whisper model on first use)
+# faster-whisper>=1.0
